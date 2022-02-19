@@ -8,7 +8,7 @@ int main()
 	printf("Enter a number to define the rows: ");
 	scanf("%d",&row);
 	
-	for(i=1;i<=row;i=i+2)			/* 2nd way (i%2==1) */ 
+	for(i=1;i<=row;i=i+2)			/* 2nd way (i%2==1)---- i=i+2 is made so that the stars are aligned */ 
 	{
 		for(space=i;space<row;space++)
 		{
