@@ -20,6 +20,34 @@ for(i=1;i<=row;i++)
 		printf("\n");
 		
 }
-		 
+	/*
+		   *
+		  * *
+		 * * *
+		* * * * 
+	*/
+	
+
+printf("Enter a number to define the rows: ");
+scanf("%d",&row);
+
+for(i=1;i<=row;i=i+2)
+{
+    for(space=i;space<=row;space=space+2)
+        printf(" ");
+    
+    for(j=1;j<=i;j++)
+    printf("*");
+    printf("\n"); 
+}	
+		
+/*
+    *
+   ***
+  *****
+ *******
+ 
+*/	
+	
 	return 0;
 }
